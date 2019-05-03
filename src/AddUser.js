@@ -51,7 +51,8 @@ class CreatePoll extends React.Component {
           email: this.email,
           dob: this.dob,
           profession: this.profession,
-          about: this.about
+          about: this.about,
+          img:'https://www.qualiscare.com/wp-content/uploads/2017/08/default-user.png'
         }
     })
   }

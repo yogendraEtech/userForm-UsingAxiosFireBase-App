@@ -8,6 +8,9 @@ class ViewUser extends Component {
       return (<form className="form-group" key={m.id} >
         <div className='container user-view' >
           <h5 className=''>{m.name}</h5>
+          <div className="form-group" style={{float:'right'}}>
+            <img src='https://www.qualiscare.com/wp-content/uploads/2017/08/default-user.png'  height='250px' width='250px'/>
+          </div>
           <div className="form-group">
             <label>Number:</label>
             <div className="">{m.number}</div>
@@ -28,6 +31,7 @@ class ViewUser extends Component {
             <label>About User:</label>
             <div className="">{m.about}</div>
           </div>
+          
         </div>
       </form>
       )
